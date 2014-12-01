@@ -1,3 +1,4 @@
-from geekio import app
+#!/usr/bin/env python
+from geekio import manager
 
-app.run(debug=True)
+manager.run()
