@@ -1,5 +1,6 @@
-from geekio import app
+from flask import render_template
+from geekio import app, api
 
 @app.route('/')
 def index():
-    return 'Hello Geek!'
+    return render_template('index.html', endpoints=api.endpoints) 
