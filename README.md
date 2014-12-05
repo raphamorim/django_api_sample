@@ -9,25 +9,25 @@
 
 To get all game data:
 
-``sh
+```sh
 /game/
-``
+```
 
 To get data from a specified game by id parameter:
 
-``sh
+```sh
 /game/:id
-``
+```
 
-``sh
+```sh
 /game/?id=10
-``
+```
 
 To get game data filtering by specified category (e.g: rpg, action...):
 
-``sh
+```sh
 /game/category/:category
-``
+```
 
 ## Data Source:
 
@@ -40,27 +40,27 @@ To get game data filtering by specified category (e.g: rpg, action...):
 - Turn on your virtualenv (optional and recommended)
 - Install requirements:
 
-``sh
+```sh
 pip install -r requirements
-``
+```
 
 - Start the server:
 
-``sh
+```sh
 python manage.py runserver
-``
+```
 
 or
 
-``sh
+```sh
 ./manage.py runserver
-``
+```
 
 And for more options information:
 
-``sh
+```ash
 python manage.py --help
-``
+```
  
 ## About:
 
