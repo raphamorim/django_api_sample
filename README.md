@@ -29,15 +29,10 @@ To get game data filtering by specified category (e.g: rpg, action...):
 /game/category/:category
 ```
 
-## Data Source:
-
-- [IGN](http://www.ign.com) 
-- [IMDB](http://www.imdb.com/)
-
 ## Development:
 
-- Have pip installed
-- Turn on your virtualenv (optional and recommended)
+- Have python and pip installed
+- Turn on your [virtualenv](http://virtualenv.readthedocs.org/en/latest/) (optional and recommended)
 - Install requirements:
 
 ```sh
@@ -50,19 +45,13 @@ pip install -r requirements
 python manage.py runserver
 ```
 
-or
+## Data Source:
 
-```sh
-./manage.py runserver
-```
+- [IGN](http://www.ign.com)
+- [IMDB](http://www.imdb.com/)
 
-And for more options information:
 
-```ash
-python manage.py --help
-```
- 
-## About:
+# About:
 
 Created by [Raphael Amorim](https://github.com/raphamorim).
 
